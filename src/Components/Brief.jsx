@@ -38,12 +38,12 @@ function Brief() {
       
       {/* Expertise and results*/}
 
-        <div className="flex p-5 space-x-3 rounded-2xl py-8 bg-slate-100 flex-col lg:flex-row space-y-8">
+        <div className="flex p-5 space-x-3 rounded-2xl py-8 bg-slate-100 flex-col lg:flex-row space-y-8 lg:space-y-2 xl:w-4/5 mx-auto">
           <div className="space-y-5">
             <h1 className="text-2xl text-black font-bold">Proven Expertise, Measurable Results</h1>
             <p className="text-2xl text-lightgrey">With a team of talented engineers and a track record of success, we deliver impactful solutions.</p>
           </div>
-           <div className="flex flex-col md:flex-row space-y-5">
+           <div className="flex flex-col md:flex-row space-y-5 lg:space-y-0 align-start">
             <div className="px-3 border-l-2 border-green-2 space-y-5 h-fit">
               <h1 className="text-4xl text-green-600 font-bold">150+</h1>
               <p className="text-2xl text-lightgrey">Smart Engineers – Expert professionals driving innovation and efficiency.</p>
