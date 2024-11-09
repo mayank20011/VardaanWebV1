@@ -3,8 +3,11 @@ export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     extend: {
-      fontFamily: { 
-        sans: ["Roboto", "sans-serif"] 
+      boxShadow: { 
+        "white-blur": "0 0 15px rgba(255, 255, 255, 0.5)" 
+      },
+      fontFamily: {
+        sans: ["Roboto", "sans-serif"],
       },
       container: {
         center: true,

@@ -5,7 +5,7 @@ import client3 from "../img/client3.webp"
 import client4 from "../img/client4.webp"
 import client5 from "../img/client5.svg"
 import client6 from "../img/client6.webp"
-
+import Slider from './Slider.jsx';
 function Brief() {
   return (
     <>
@@ -35,6 +35,7 @@ function Brief() {
        
        {/* customer review images */}
        <div>
+        <Slider/>
        </div>
        </>
   )

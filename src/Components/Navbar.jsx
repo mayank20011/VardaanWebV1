@@ -13,7 +13,7 @@ function Navbar() {
   } 
 
   return (
-    <nav className="fixed w-full bg-white top-0 box-border">
+    <nav className="fixed w-full bg-white top-0 box-border z-30">
       <div className="container mx-auto flex justify-between items-center pb-2 pt-5 box-border">
 
         {/* logo */}
