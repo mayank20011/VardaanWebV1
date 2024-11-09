@@ -36,9 +36,27 @@ function Brief() {
       {/* customer review images */}
       <Slider/>
       
-      {/* */}
-        <div className="w-full ">
+      {/* Expertise and results*/}
 
+        <div className="flex p-5 space-x-3 rounded-2xl py-8 bg-slate-100 flex-col lg:flex-row space-y-8">
+          <div className="space-y-5">
+            <h1 className="text-2xl text-black font-bold">Proven Expertise, Measurable Results</h1>
+            <p className="text-2xl text-lightgrey">With a team of talented engineers and a track record of success, we deliver impactful solutions.</p>
+          </div>
+           <div className="flex flex-col md:flex-row space-y-5">
+            <div className="px-3 border-l-2 border-green-2 space-y-5 h-fit">
+              <h1 className="text-4xl text-green-600 font-bold">150+</h1>
+              <p className="text-2xl text-lightgrey">Smart Engineers – Expert professionals driving innovation and efficiency.</p>
+            </div>
+            <div className="px-3 border-l-2 border-green-2 space-y-5 h-fit mt-0">
+              <h1 className="text-4xl text-green-600 font-bold">100+</h1>
+              <p className="text-2xl text-lightgrey">Successful Projects – Proven results across diverse industries and technologies.</p>
+            </div>
+            <div className="px-3 border-l-2 border-green-2 space-y-5 h-fit mt-0">
+              <h1 className="text-4xl text-green-600 font-bold">200%</h1>
+              <p className="text-2xl text-lightgrey">Accountability – We take full ownership of every project to guarantee success.</p>
+            </div>
+           </div>
         </div>
        </>
   )
