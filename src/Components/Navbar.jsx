@@ -2,6 +2,7 @@ import React from 'react'
 import styles from "./Navbar.module.css";
 import companyLogo from "../img/Footer-logo.svg";
 import { useRef } from 'react';
+import { Link } from 'react-router-dom';
 function Navbar() {
 
   const hamtoggle=useRef(null);
@@ -20,10 +21,10 @@ function Navbar() {
         
         {/* Links */}
         <div className={`flex flex-col gap-6 md:flex-row absolute left-0 top-0 bg-white z-5 w-3/5 border-r-2 border-b-2 border-s-teal-600 h-screen p-10 sm:w-1/2 md:relative md:w-fit md:border-0 md:h-fit md:p-0 md:pl-6 transition ease-in-out duration-300 ${styles.in} opacity-90 md:opacity-1`} ref={hamtoggle}>
-          <a href="#" className="font-base text-lightgrey font-medium border-b-2 pt-2 pb-4 md:border-0 md:border-b-2 md:border-b-white md:p-0  hover:border-b-2 hover:border-bluish transition mt-2" onClick={menuPopUp}>Home</a>
-          <a href="#" className="font-base text-lightgrey font-medium border-b-2 pt-2 pb-4 md:border-0 md:border-b-2 md:border-b-white md:p-0  hover:border-b-2 hover:border-bluish transition mt-2" onClick={menuPopUp}>Services</a>
-          <a href="#" className="font-base text-lightgrey font-medium border-b-2 pt-2 pb-4 md:border-0 md:border-b-2 md:border-b-white md:p-0  hover:border-b-2 hover:border-bluish transition mt-2" onClick={menuPopUp}>Contact Us</a>
-          <a href="#" className="font-base text-lightgrey font-medium border-b-2 pt-2 pb-4 md:border-0 md:border-b-2 md:border-b-white md:p-0  hover:border-b-2 hover:border-bluish transition mt-2" onClick={menuPopUp}>About Us</a>
+          <Link to={"/"} className="font-base text-lightgrey font-medium border-b-2 pt-2 pb-4 md:border-0 md:border-b-2 md:border-b-white md:p-0  hover:border-b-2 hover:border-bluish transition mt-2" onClick={menuPopUp}>Home</Link>
+          <Link to={"/services"} className="font-base text-lightgrey font-medium border-b-2 pt-2 pb-4 md:border-0 md:border-b-2 md:border-b-white md:p-0  hover:border-b-2 hover:border-bluish transition mt-2" onClick={menuPopUp}>Services</Link>
+          <Link to={"/contactUs"} className="font-base text-lightgrey font-medium border-b-2 pt-2 pb-4 md:border-0 md:border-b-2 md:border-b-white md:p-0  hover:border-b-2 hover:border-bluish transition mt-2" onClick={menuPopUp}>Contact Us</Link>
+          <Link to={"/aboutUs"} className="font-base text-lightgrey font-medium border-b-2 pt-2 pb-4 md:border-0 md:border-b-2 md:border-b-white md:p-0  hover:border-b-2 hover:border-bluish transition mt-2" onClick={menuPopUp}>About Us</Link>
         </div>
         
         {/* button */}

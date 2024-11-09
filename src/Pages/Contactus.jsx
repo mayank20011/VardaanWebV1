@@ -2,7 +2,9 @@ import React from 'react'
 
 function Contactus() {
   return (
-    <div>Contactus</div>
+    <div className="container mx-auto pt-32">
+      Contactus
+    </div>
   )
 }
 

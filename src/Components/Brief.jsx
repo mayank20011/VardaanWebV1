@@ -35,7 +35,6 @@ function Brief() {
        
        {/* customer review images */}
        <div>
-
        </div>
        </>
   )
