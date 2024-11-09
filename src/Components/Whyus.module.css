@@ -1,0 +1,14 @@
+.gridcontainer {
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 80px;
+}
+@media (max-width: 983px) {
+  .gridcontainer {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (max-width: 730px) {
+  .gridcontainer {
+    grid-template-columns:1fr;
+  }
+}
