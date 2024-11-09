@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from "./Navbar.module.css";
-import companyLogo from "../img/Footer-logo.svg";
+import companyLogo from "../img/Vardanlogo.png";
 import { useRef } from 'react';
 import { Link } from 'react-router-dom';
 function Navbar() {
@@ -17,7 +17,7 @@ function Navbar() {
       <div className="container mx-auto flex justify-between items-center pb-2 pt-5 box-border">
 
         {/* logo */}
-         <img src={companyLogo} alt="Logo" />
+         <img src={companyLogo} alt="Logo" className="h-14"/>
         
         {/* Links */}
         <div className={`flex flex-col gap-6 md:flex-row absolute left-0 top-0 bg-white z-5 w-3/5 border-r-2 border-b-2 border-s-teal-600 h-screen p-10 sm:w-1/2 md:relative md:w-fit md:border-0 md:h-fit md:p-0 md:pl-6 transition ease-in-out duration-300 ${styles.in} opacity-90 md:opacity-1`} ref={hamtoggle}>

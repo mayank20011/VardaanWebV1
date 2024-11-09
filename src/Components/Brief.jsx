@@ -9,8 +9,8 @@ import Slider from './Slider.jsx';
 function Brief() {
   return (
     <>
-    {/* top div */}
-    <div className="flex flex-col gap-8">
+      {/* top div */}
+      <div className="flex flex-col gap-8">
         <h1 className="text-5xl text-center font-bold md:w-4/5 xl:w-1/2  mx-auto">Custom Software Delivered with Passion, Precision, and Accountability</h1>
         <p className="text-2xl text-center mx-auto md:w-1/2 text-lightgrey">Together, with our team of smart engineers, we’ll accelerate your success through custom software and flexible support. We’re committed to delivering value and ensuring top-tier quality in every project.</p>
         <div className="w-fit flex gap-4 sm:gap-8 mx-auto">
@@ -31,12 +31,15 @@ function Brief() {
           </div>
 
         </div>
-       </div>
+      </div>
        
-       {/* customer review images */}
-       <div>
-        <Slider/>
-       </div>
+      {/* customer review images */}
+      <Slider/>
+      
+      {/* */}
+        <div className="w-full ">
+
+        </div>
        </>
   )
 }
