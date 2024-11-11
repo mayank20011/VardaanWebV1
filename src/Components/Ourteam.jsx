@@ -8,7 +8,7 @@ function Ourteam() {
 
       <p className="text-2xl text-center mx-auto w-100 md:w-4/5 lg:w-2/3 text-lightgrey">Together, with our team of smart engineers, we’ll accelerate your success through custom software and flexible support. We’re committed to delivering value and ensuring top-tier quality in every project.</p>
 
-      <div className="grid md:grid-cols-3 gap-8">
+      <div className="grid md:grid-cols-3 gap-8 mx-auto">
         <div className="grid space-y-4">
           <div className="flex flex-row space-x-3 items-center">
             <img src={tick} alt="" className="h-7"/>
@@ -53,7 +53,7 @@ function Ourteam() {
 
       <h1 className="text-3xl text-center font-bold w-full mx-auto">How Do We Write Excellent Code?</h1>
 
-      
+
     </div>
   );
 }
