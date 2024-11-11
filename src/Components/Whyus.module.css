@@ -1,3 +1,6 @@
+/* *{
+  border:1px solid black;
+} */
 .gridcontainer {
   grid-template-columns: repeat(3, 1fr);
   column-gap: 80px;

@@ -4,7 +4,7 @@ function Ourteam() {
   return (
     <div className="container grid py-12 space-y-12 bg-slate-100">
 
-      <h1 className="text-5xl text-center font-bold w-100 md:w-4/5 xl:w-2/3  mx-auto">Custom Software Delivered with Passion, Precision, and Accountability</h1>
+      <h1 className="text-2xl sm:text-5xl text-center font-bold w-100 md:w-4/5 xl:w-2/3  mx-auto">Custom Software Delivered with Passion, Precision, and Accountability</h1>
 
       <p className="text-2xl text-center mx-auto w-100 md:w-4/5 lg:w-2/3 text-lightgrey">Together, with our team of smart engineers, we’ll accelerate your success through custom software and flexible support. We’re committed to delivering value and ensuring top-tier quality in every project.</p>
 
