@@ -1,11 +1,11 @@
 import React from 'react'
 import {Link} from "react-router-dom";
-import ourservices1 from "../img/ourservices1.WEBP";
-import ourservices2 from "../img/ourservices2.WEBP";
-import ourservices3 from "../img/ourservices3.WEBP";
-import ourservices4 from "../img/ourservices4.WEBP";
-import ourservices5 from "../img/ourservices5.WEBP";
-import ourservices6 from "../img/ourservices6.WEBP";
+import ourservices1 from "../img/ourservices1.webp";
+import ourservices2 from "../img/ourservices2.webp";
+import ourservices3 from "../img/ourservices3.webp";
+import ourservices4 from "../img/ourservices4.webp";
+import ourservices5 from "../img/ourservices5.webp";
+import ourservices6 from "../img/ourservices6.webp";
 function OurServices() {
   return (
     <div className="bg-slate-100 my-12 space-y-12 py-12">
