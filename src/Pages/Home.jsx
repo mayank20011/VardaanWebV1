@@ -1,6 +1,8 @@
 import Brief from '../Components/Brief'
 import OurServices from '../Components/OurServices'
 import Whyus from '../Components/Whyus'
+import ChatwithUsbutton from '../Components/ChatwithUsbutton';
+import Ourteam from '../Components/Ourteam';
 function Home() {
   return (
     <>
@@ -8,6 +10,8 @@ function Home() {
        <Brief/>
        <Whyus/>
        <OurServices/>
+       <ChatwithUsbutton/>
+       <Ourteam/>
     </div>
     </>
   )

@@ -53,7 +53,7 @@ function OurServices() {
           <img src={ourservices6} alt="" />
           <h1 className="text-2xl">IT Consulting</h1>
           <p className="text-2xl text-lightgrey">Strategic advice and solutions to optimize your IT infrastructure and roadmap.</p>
-          <Link to={''} className="cursor-pointer text-blue-800 text-xl">Learn more <i class="fa-solid fa-arrow-right"></i></Link>
+          <Link to={''} className="cursor-pointer text-blue-800 text-xl">Learn more <i className="fa-solid fa-arrow-right"></i></Link>
          </div>
 
       </div>
