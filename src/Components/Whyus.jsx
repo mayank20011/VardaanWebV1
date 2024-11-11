@@ -89,12 +89,12 @@ function Whyus() {
           </h1>
 
           {/* container */}
-          <div className="grid gap-5 grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+          <div className="grid gap-5 grid-cols-1 lg:grid-cols-3 max-1240:grid-cols-1">
 
-            <div className="container bg-white border-2 border-bluish rounded-2xl space-y-6 py-10">
-              <img src={card1} alt="" />
+            <div className="container bg-white border-2 border-bluish rounded-2xl space-y-6 py-10 flex flex-col">
+              <img src={card1} alt="" className="w-12"/>
               <h1 className="text-2xl font-bold">Dedicated development team</h1>
-              <p className="text-2xl text-lightgrey">We deploy a dedicated, smart team consisting of developers, software testers, and project managers who take full ownership of the entire development process. They treat the project as their own and demonstrate excellence at every stage.</p>
+              <p className="text-2xl text-lightgrey grow">We deploy a dedicated, smart team consisting of developers, software testers, and project managers who take full ownership of the entire development process. They treat the project as their own and demonstrate excellence at every stage.</p>
               
               <div className="border-2 container rounded-md  py-4 space-y-6">
               <img src={stars} alt="" />
@@ -104,10 +104,10 @@ function Whyus() {
 
             </div>
             
-            <div className="container bg-white border-2 border-bluish rounded-2xl space-y-6 py-10">
-              <img src={card2} alt="" />
+            <div className="container bg-white border-2 border-bluish rounded-2xl space-y-6 py-10 flex flex-col">
+              <img src={card2} alt="" className="w-12"/>
               <h1 className="text-2xl font-bold">Software outsourcing</h1>
-              <p className="text-2xl text-lightgrey">Driven by passion and ownership, our team is dedicated to delivering software solutions with care and commitment. We listen, innovate, and ensure your success every step of the way.</p>
+              <p className="text-2xl text-lightgrey grow">Driven by passion and ownership, our team is dedicated to delivering software solutions with care and commitment. We listen, innovate, and ensure your success every step of the way.</p>
               
               <div className="border-2 container rounded-md  py-4 space-y-6">
               <img src={stars} alt="" />
@@ -117,10 +117,10 @@ function Whyus() {
 
             </div>
             
-            <div className="container bg-white border-2 border-bluish rounded-2xl space-y-6 py-10">
-              <img src={card1} alt="" />
+            <div className="container bg-white border-2 border-bluish rounded-2xl space-y-6 py-10 flex flex-col">
+              <img src={card1} alt="" className="w-12"/>
               <h1 className="text-2xl font-bold">IT Staff augmentation</h1>
-              <p className="text-2xl text-lightgrey">We tailor our team to fit your project’s unique needs, allowing you to choose the required skill sets, experience, and number of professionals. Our goal is to ensure a perfect match for your project.</p>
+              <p className="text-2xl text-lightgrey grow">We tailor our team to fit your project’s unique needs, allowing you to choose the required skill sets, experience, and number of professionals. Our goal is to ensure a perfect match for your project.</p>
               
               <div className="border-2 container rounded-md  py-4 space-y-6">
               <img src={stars} alt="" />
