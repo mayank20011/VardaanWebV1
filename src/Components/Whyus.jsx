@@ -81,7 +81,7 @@ function Whyus() {
       {/* why us brief */}
       <div className="bg-slate-100 w-100 py-24 space-y-12">
 
-        <div className="container space-y-24">
+        <div className="container space-y-12 md:space-y-24">
 
           <h1 className="text-4xl text-center font-bold w-100 md:w-3/4 mx-auto lg:w-4/5">
             Experience tailored solutions for your custom software development
