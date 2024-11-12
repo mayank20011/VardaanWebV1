@@ -89,7 +89,7 @@ function Whyus() {
           </h1>
 
           {/* container */}
-          <div className="grid gap-5 grid-cols-1 lg:grid-cols-3 max-1240:grid-cols-1">
+          <div className="grid gap-5 grid-cols-1 lg:grid-cols-3 max-1240:grid-cols-1 lesspadding:px-1">
 
             <div className="container bg-white border-2 border-bluish rounded-2xl space-y-6 py-10 flex flex-col">
               <img src={card1} alt="" className="w-12"/>

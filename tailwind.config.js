@@ -6,6 +6,7 @@ export default {
       screens:{
         'custom-range':{'min':'770px', 'max':'983px'},
         'max-1240':{'max':'1240px'},
+        'lesspadding':{'max':'540px'},
       },
       boxShadow: { 
         "white-blur": "0 0 15px rgba(255, 255, 255, 0.5)" 
