@@ -65,7 +65,7 @@ function Ourteam() {
 
       <div className="bg-white w-100">
         <div className="px-4 py-6 space-y-12 md:w-3/5">
-          <div className="flex gap-3 items-center">
+          <div className="grid md:flex gap-3 items-center">
             <img src={Ec1} alt="" />
             <div className="grid space-y-2">
               <h3 className="text-xl font-bold">Comprehension Tests</h3>
@@ -78,7 +78,7 @@ function Ourteam() {
             </div>
           </div>
 
-          <div className="flex gap-3 items-center">
+          <div className="grid md:flex gap-3 items-center">
             <img src={Ec2} alt="" />
             <div className="grid space-y-2">
               <h3 className="text-xl font-bold">Internal Training</h3>
@@ -90,14 +90,14 @@ function Ourteam() {
             </div>
           </div>
 
-          <div className="flex gap-3 items-center">
+          <div className="grid md:flex gap-3 items-center">
             <img src={Ec3} alt="" />
             <div className="grid space-y-2">
               <h3 className="text-xl font-bold">Code Quality Reviews</h3>
               <p className="text-sm text-lightgrey">
                 We implement a multi-channel approach to our code reviews.
               </p>
-              <div className="flex gap-3 items-center border-2 rounded-md p-2">
+              <div className="grid md:flex gap-3 items-center border-2 rounded-md p-2">
                 <img src={Ec31} alt="" />
 
                 <div className="grid space-y-2">
@@ -108,7 +108,7 @@ function Ourteam() {
                   </p>
                 </div>
               </div>
-              <div className="flex gap-3 items-center border-2 rounded-md p-2">
+              <div className="grid md:flex gap-3 items-center border-2 rounded-md p-2">
                 <img src={Ec32} alt="" />
 
                 <div className="grid space-y-2">
@@ -124,7 +124,7 @@ function Ourteam() {
             </div>
           </div>
 
-          <div className="flex gap-3 items-center">
+          <div className="grid md:flex gap-3 items-center">
             <img src={Ec4} alt="" />
             <div className="grid space-y-2">
               <h3 className="text-xl font-bold">Transparency</h3>
@@ -136,7 +136,7 @@ function Ourteam() {
             </div>
           </div>
 
-          <div className="flex gap-3 items-center">
+          <div className="grid md:flex gap-3 items-center">
             <img src={Ec5} alt="" />
             <div className="grid space-y-2">
               <h3 className="text-xl font-bold">Team Structure</h3>
@@ -146,7 +146,7 @@ function Ourteam() {
             </div>
           </div>
 
-          <div className="flex gap-3 items-center">
+          <div className="grid md:flex gap-3 items-center">
             <img src={Ec6} alt="" />
             <div className="grid space-y-2">
               <h3 className="text-xl font-bold">
